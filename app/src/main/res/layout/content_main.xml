@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/activity_main_greeting_con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:textSize="27dp"
+        android:text="@string/TitleMenu"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/activity_main_play_btnthm1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_greeting_con"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickStartThm1"
+        android:padding="30dp"
+        android:text="@string/Theme1" />
+
+    <Button
+        android:id="@+id/activity_main_play_btnthm2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_play_btnthm1"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickStartThm2"
+        android:padding="30dp"
+        android:text="@string/Theme2" />
+
+
+    <Button
+        android:id="@+id/activity_main_play_btnthm3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_play_btnthm2"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickStartThm3"
+        android:padding="30dp"
+        android:text="@string/Theme3" />
+
+
+    <Button
+        android:id="@+id/activity_main_play_btnPiano"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="310dp"
+        android:layout_toRightOf="@id/activity_main_play_btnthm2"
+        android:onClick="onClickStartPiano"
+        android:text="@string/PianoVisu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/activity_main_play_btnthm4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_play_btnthm3"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickStartThm4"
+        android:padding="30dp"
+        android:text="@string/Theme4" />
+
+
+</RelativeLayout>

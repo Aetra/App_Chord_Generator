@@ -1,0 +1,94 @@
+[
+  /** first mood */
+  {
+    "name": "sad",
+    "chords":
+  [
+    {
+      "chord": [
+        "RFL",
+        "SiBSD",
+        "FDF",
+        "DSD"
+      ]
+    },
+    {
+      "chord": [
+        "RFL",
+        "LDM",
+        "LDM",
+        "SSiR"
+      ]
+    },
+    {
+      "chord": [
+        "RFL",
+        "SiBSD",
+        "FDF",
+        "DSD"
+      ]
+    }]
+  },
+
+  /** Second mood */
+  {
+
+      "name": "Energic",
+      "chords":
+    [
+      {
+        "chord": [
+          "Do_MSol",
+          "Do_MSol",
+          "Si_FS",
+          "Si_FS"
+        ]
+      },
+      {
+        "chord": [
+          "SSiR",
+          "SiMbSb",
+          "RFL"
+        ]
+      },
+      {
+        "chord": [
+          "LDF",
+          "LD#M",
+          "SDM"
+        ]
+      }]
+  },
+
+
+  /** third mood */
+  {
+    "name": "epic",
+    "chords": [
+      {
+        "chord": [
+          "SSibR",
+          "MibSibMib",
+          "RLR"
+        ]
+      },
+      {
+        "chord": [
+          "SibFSib",
+          "D#S#D#",
+          "F#D#F#",
+          "S#MbS#"
+        ]
+      },
+      {
+        "chord": [
+          "LDM",
+          "SSiR",
+          "FDF",
+          "RLR",
+          "MSiM"
+        ]
+      }
+    ]
+  }
+]
